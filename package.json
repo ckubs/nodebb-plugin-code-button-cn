@@ -1,14 +1,14 @@
 {
-  "name": "nodebb-plugin-buttons-galore",
-  "version": "0.0.6",
-  "description": "Allows you to take NodeBB's composer to the next level to provide more user-friendly buttons.",
+  "name": "nodebb-plugin-code-button",
+  "version": "0.0.1",
+  "description": "Simply adds a code button to composer.",
   "main": "library.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TedRinehart/nodebb-plugin-buttons-galore"
+    "url": "https://github.com/henrikekblad/nodebb-plugin-code-button"
   },
   "keywords": [
     "nodebb",
@@ -22,9 +22,9 @@
   },
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/TedRinehart/nodebb-plugin-buttons-galore/issues"
+    "url": "https://github.com/henrikekblad/nodebb-plugin-code-button/issues"
   },
   "nbbpm": {
-    "compatibility": "^0.6.0"
+    "compatibility": "^0.7.0"
   },
 }
