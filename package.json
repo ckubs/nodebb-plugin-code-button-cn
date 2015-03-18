@@ -2,7 +2,6 @@
   "name": "nodebb-plugin-code-button",
   "version": "0.0.1",
   "description": "Simply adds a code button to composer.",
-  "main": "library.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,8 +16,8 @@
     "buttons"
   ],
   "author": {
-    "name": "Ted Rinehart",
-    "email": "theodorerinehart@gmail.com"
+    "name": "Henrik Ekblad",
+    "email": "henrik.ekblad@gmail.com"
   },
   "license": "BSD-2-Clause",
   "bugs": {
@@ -26,5 +25,5 @@
   },
   "nbbpm": {
     "compatibility": "^0.7.0"
-  },
+  }
 }
