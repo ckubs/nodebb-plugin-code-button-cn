@@ -3,6 +3,7 @@
 	"name": "NodeBB: Code Button",
 	"description": "Simply adds a code button to composer.",
 	"url": "https://github.com/henrikekblad/nodebb-plugin-code-button",
+	"library": "./library.js",
 	"hooks": [
 	  		{ "hook": "filter:composer.formatting", "method": "registerFormatting" }
 	],
