@@ -7,7 +7,7 @@
 	"defaultLang": "en_GB",
 	"library": "./library.js",
 	"hooks": [
-	  		{ "hook": "filter:composer.formatting", "method": "registerFormatting" }
+	  		{ "hook": "filter:composer.formatting", "method": "addComposerButton" }
 	],
 	"less": [],
     "scripts": [
