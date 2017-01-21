@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-code-button",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Simply adds a code button to composer.",
   "main": "library.js",
   "scripts": {
