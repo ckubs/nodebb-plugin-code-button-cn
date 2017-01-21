@@ -1,7 +1,8 @@
 {
   "name": "nodebb-plugin-code-button",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simply adds a code button to composer.",
+  "main": "library.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,7 +24,6 @@
   "bugs": {
     "url": "https://github.com/henrikekblad/nodebb-plugin-code-button/issues"
   },
-  "main": "library.js",
   "nbbpm": {
     "compatibility": "^1.0.0"
   }

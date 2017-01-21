@@ -1,10 +1,10 @@
 'use strict';
 
-var code = {};
+var codeButtons = {};
 
-code.registerFormatting = function(data, callback) {
+codeButtons.registerFormatting = function(data, callback) {
 	var formatting = [
-		{name: 'code', className: 'fa fa-code', title: 'Insert Code'},
+		{name: 'code', className: 'fa fa-code', title: '[[codeButtons:code]]'},
 	];
 
 	data.options = data.options.concat(formatting);
@@ -12,4 +12,4 @@ code.registerFormatting = function(data, callback) {
 	callback(null, data);	
 }
 
-module.exports = code;
+module.exports = codeButtons;
