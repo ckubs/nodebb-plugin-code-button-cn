@@ -6,7 +6,7 @@ $('document').ready(function() {
 		formatting.addButtonDispatch('code-button', function(textarea, selectionStart, selectionEnd) {
 			if(selectionStart === selectionEnd){
 				controls.insertIntoTextarea(textarea, '```\nInsert Code Here\n```');
-				controls.updateTextareaSelection(textarea, selectionStart + 4, selectionEnd + 21);
+				controls.updateTextareaSelection(textarea, selectionStart + 4, selectionEnd + 20);
 			} else {
 				controls.wrapSelectionInTextareaWith(textarea, '```\n','\n```\n');
 				controls.updateTextareaSelection(textarea, selectionStart + 4, selectionEnd + 4);
