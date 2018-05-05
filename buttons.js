@@ -5,8 +5,8 @@ $('document').ready(function() {
 	require(['composer/controls', 'composer/formatting'], function(controls, formatting) {
 		formatting.addButtonDispatch('code-button', function(textarea, selectionStart, selectionEnd) {
 			if(selectionStart === selectionEnd){
-				controls.insertIntoTextarea(textarea, '```\nInsert Code Here\n```');
-				controls.updateTextareaSelection(textarea, selectionStart + 4, selectionEnd + 20);
+				controls.insertIntoTextarea(textarea, '```\n请在这里粘贴代码\n```');
+				controls.updateTextareaSelection(textarea, selectionStart + 4, selectionEnd + 12);
 			} else {
 				controls.wrapSelectionInTextareaWith(textarea, '```\n','\n```\n');
 				controls.updateTextareaSelection(textarea, selectionStart + 4, selectionEnd + 4);
