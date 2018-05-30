@@ -1,6 +1,6 @@
 {
-  "name": "nodebb-plugin-code-button",
-  "version": "0.0.7",
+  "name": "nodebb-plugin-code-button-cn",
+  "version": "0.0.8",
   "description": "Simply adds a code button to composer.",
   "main": "library.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/henrikekblad/nodebb-plugin-code-button"
+    "url": "git+https://github.com/kidswong999/nodebb-plugin-code-button-cn.git"
   },
   "keywords": [
     "nodebb",
@@ -16,15 +16,13 @@
     "composer",
     "buttons"
   ],
-  "author": {
-    "name": "Henrik Ekblad",
-    "email": "henrik.ekblad@gmail.com"
-  },
+  "author": "Xiao ZhiZhi <kidswong999@163.com>",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/henrikekblad/nodebb-plugin-code-button/issues"
+    "url": "https://github.com/kidswong999/nodebb-plugin-code-button-cn/issues"
   },
   "nbbpm": {
     "compatibility": "^1.0.0"
-  }
+  },
+  "homepage": "https://github.com/kidswong999/nodebb-plugin-code-button-cn#readme"
 }
